@@ -41,7 +41,7 @@ body{
     color: var(--color-white);
     line-height: 1.7;
     background-image: url('./assets/background_dark.jpg');
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 /* -------------------------------- general styles ------------------------- */
@@ -61,6 +61,7 @@ h1{
 
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h5{
@@ -68,13 +69,13 @@ section > h5{
     color: var(--color-light);
 }
 
-section > h2 {
+section > h2{
     text-align: center;
     margin-bottom: 3rem;
     color: var(--color-primary)
 }
 
-.text-light {
+.text-light{
     color: var(--color-light);
 }
 

@@ -1,9 +1,19 @@
-import React from 'react'
+import React , { useState } from 'react'
+
 import './Nav.css'
+import { RiHomeHeartLine, RiUserLine, RiBook3Line, RiServiceLine, RiMessage2Line } from 'react-icons/ri'
 
 const Nav = () => {  
-  (
-    <div>Nav</div>
+  const [isActive, setIsActive] = useState('#home')
+
+  return (
+    <nav>       
+      <a href="#home" className={ isActive === '#home' ? "active" : ""} onClick={()=>setIsActive('#home')}><RiHomeHeartLine /></a>
+      <a href="#about" className={ isActive === '#about' ? "active" : ""} onClick={()=>setIsActive('#about')}><RiUserLine /></a>
+      <a href="#experience" className={ isActive === '#experience' ? "active" : ""} onClick={()=>setIsActive('#experience')}><RiBook3Line /></a>
+      <a href="#services" className={ isActive === '#services' ? "active" : ""} onClick={()=>setIsActive('#services')}><RiServiceLine /></a>
+      <a href="#contact" className={ isActive === '#contact' ? "active" : ""} onClick={()=>setIsActive('#contact')}><RiMessage2Line /></a>
+    </nav>
   )
 }
 
