@@ -1,5 +1,6 @@
 .testimonial_container{
-    width: 40%;    
+    width: 40%;  
+    padding-bottom: 4rem;  
 }
 
 .client_avatar{
@@ -32,6 +33,7 @@
     margin: 0.8rem auto 0;
 }
 
+ /*  ----------------- media queries (medium devices) --------------------*/
 @media screen and (max-width: 1024px) {
     .testimonial_container{
         width: 60%;
