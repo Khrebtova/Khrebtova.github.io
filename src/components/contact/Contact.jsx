@@ -1,11 +1,8 @@
-import React, { useRef } from 'react'
-// import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css'
 import { HiOutlineMail } from 'react-icons/hi'
 import {RiMessengerLine, RiWhatsappLine } from 'react-icons/ri'
-
-// https://www.emailjs.com/ 
-// https://www.emailjs.com/docs/examples/reactjs/
 
 const Contact = () => {
   const form = useRef();
@@ -13,12 +10,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs.sendForm('service_qras5qn', 'template_odvsipv', form.current, 'D84PzHtvZEM69gkAR')
-    //   .then((result) => {
-    //       console.log(result.text);
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
+    emailjs.sendForm('service_qras5qn', 'template_odvsipv', form.current, 'D84PzHtvZEM69gkAR')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
 
     e.target.reset()
   };
@@ -36,12 +33,12 @@ const Contact = () => {
             <a href="mailto:mcfaddenkseniia@gmail.com" target={'_blank'} rel="noreferrer">Send a message</a>
           </article>
           
-          <article className='contact_option'>
+          {/* <article className='contact_option'>
             <RiMessengerLine className='contact_icon'/>
             <h4>Messenger</h4>
             <h5>Kseniia McFadden</h5>
             <a href="http://m.me/kseniya.hrebtova" target={'_blank'} rel="noreferrer">Send a message</a>
-          </article>
+          </article> */}
           
           <article className='contact_option'>
             <RiWhatsappLine className='contact_icon'/>
@@ -55,7 +52,7 @@ const Contact = () => {
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="text" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder='Your Message' required/>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type="submit" className='btn btn-primary'>Send Message</button>
         </form>
       </div>
     </section>
