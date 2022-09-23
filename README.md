@@ -1,4 +1,15 @@
 video helper https://www.youtube.com/watch?v=G-Cr00UYokU
+// https://www.emailjs.com/ 
+// https://www.emailjs.com/docs/examples/reactjs/
+
+## TODO:
+1.1. install emailjs
+1.2. update contact.jsx
+2.1. install swiper
+2.2. update testimonials
+3.1. delete unnecessary footers
+4.1. header: picture in small devices
+
 
 # Getting Started with Create React App
 

@@ -33,15 +33,15 @@
     margin: 0.8rem auto 0;
 }
 
- /*  ----------------- media queries (medium devices) --------------------*/
-@media screen and (max-width: 1024px) {
+/*  ----------------- media queries (medium devices) --------------------*/
+@media screen and (max-width: 1024px){
     .testimonial_container{
         width: 60%;
     }
- }
+}
  
- /*  ----------------- media queries (small devices) --------------------*/
- @media screen and (max-width: 600px) {
+/*  ----------------- media queries (small devices) --------------------*/
+@media screen and (max-width: 600px){
     .testimonial_container{
         /* width: 80%; */
         width: var(--container-width-sm);
@@ -50,4 +50,4 @@
     .client_review{
         width: var(--container-width-sm);
     }
- }
+}

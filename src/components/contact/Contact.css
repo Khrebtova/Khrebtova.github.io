@@ -58,7 +58,7 @@ input, textarea{
 
 
 /*  ----------------- media queries (medium devices) --------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
     .contact_container{
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -66,13 +66,9 @@ input, textarea{
  }
  
  /*  ----------------- media queries (small devices) --------------------*/
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
     .contact_container{
         width: var(--container-width-sm);
-        /* grid-template-columns: 1fr;
-        gap: 2rem; */
         margin: 1.2rem;
-    }
-
-    
- }
+    }    
+}

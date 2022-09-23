@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import './Contact.css'
 import { HiOutlineMail } from 'react-icons/hi'
 import {RiMessengerLine, RiWhatsappLine } from 'react-icons/ri'
@@ -13,12 +13,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_qras5qn', 'template_odvsipv', form.current, 'D84PzHtvZEM69gkAR')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    // emailjs.sendForm('service_qras5qn', 'template_odvsipv', form.current, 'D84PzHtvZEM69gkAR')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
 
     e.target.reset()
   };

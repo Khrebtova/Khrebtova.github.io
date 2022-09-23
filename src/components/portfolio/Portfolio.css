@@ -37,8 +37,8 @@
 }
 
 /*  ----------------- media queries (medium devices) --------------------*/
-@media screen and (max-width: 1024px) {
-    .portfolio_container {
+@media screen and (max-width: 1024px){
+    .portfolio_container{
         grid-template-columns: 1fr 1fr;  
         gap: 1rem;      
     }    
@@ -46,14 +46,12 @@
     .portfolio_item{
         padding: 1rem;
     }
- }
+}
  
- /*  ----------------- media queries (small devices) --------------------*/
- @media screen and (max-width: 600px) {
-      .portfolio_container {
+/*  ----------------- media queries (small devices) --------------------*/
+@media screen and (max-width: 600px){
+    .portfolio_container{
         grid-template-columns: 1fr;  
         gap: 1rem;      
-      }
-
-      
- }
+    }    
+}
