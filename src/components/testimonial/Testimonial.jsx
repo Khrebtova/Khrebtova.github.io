@@ -1,8 +1,11 @@
 import React from 'react'
 import './Testimonial.css'
-//video @2:35 to import swiper 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const Testimonial = () => {
   const reviews = [
@@ -28,17 +31,15 @@ const Testimonial = () => {
 
   const renderReviews = reviews.map(review => {
     return(
-      //<SwiperSlide className='testimonial' key={review.id}>
-      <article className='testimonial' key={review.id}>
+      <SwiperSlide className='testimonial' key={review.id}>             
         <div className='client_avatar'>
           <img src={review.avatar} alt={review.name} />
         </div>
         <h5 className='client_name'>{review.name}</h5>
         <small className='client_review'> 
           {review.review}
-        </small>
-      </article>
-      // </SwiperSlide>
+        </small> 
+      </SwiperSlide>
     )
   })
 
@@ -47,16 +48,16 @@ const Testimonial = () => {
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
       <div className="container testimonial_container"> 
-        {/* <Swiper
+        <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={40}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}          
-        > */}
+        >
         {renderReviews}
-        {/* </Swiper>        */}        
+        </Swiper>               
       </div>
     </section>
   )
