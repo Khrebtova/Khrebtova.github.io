@@ -17,14 +17,14 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <div className="footer_socials">
+      {/* <div className="footer_socials">
         <a href="https://faceboook.com"><RiFacebookCircleFill /></a>
         <a href="https://instagram.com"><RiInstagramLine /></a>
         <a href="https://twitter.com"><RiTwitterFill /></a>
-      </div>
+      </div> */}
 
       <div className="footer_copyrights">
-        <small>&copy; All rights reserved</small>
+        <small>&copy; Kseniia McFadden. All rights reserved</small>
       </div>
     </footer>
   )
