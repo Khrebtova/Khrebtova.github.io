@@ -1,29 +1,22 @@
-video helper https://www.youtube.com/watch?v=G-Cr00UYokU
-https://www.emailjs.com/ 
-https://www.emailjs.com/docs/examples/reactjs/
-https://swiperjs.com/react
+# Personal Portfolio Website
+kseniiamcfadden.com
 
-## TODO:
+First attemt to build my portfolio after graduation flatiron school program. 
 
-3.1. delete unnecessary footers
-4.1. header: picture in small devices
+Used: 
+- React.js to buld site functuanality
+- CSS to style components
 
+# Getting Started 
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+fork and clone to your local enviroment
+cd to the project directory and run 
+`npm install`
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
