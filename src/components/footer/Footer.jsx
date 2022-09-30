@@ -1,7 +1,7 @@
 import React from "react"
 import "./Footer.css"
-import {RiFacebookCircleFill, RiInstagramLine, RiTwitterFill} from "react-icons/ri";
-import {BsTreeFill} from "react-icons/bs";
+// import {RiFacebookCircleFill, RiInstagramLine, RiTwitterFill} from "react-icons/ri";
+// import {BsTreeFill} from "react-icons/bs";
 
 const Footer = () => {
   return (
