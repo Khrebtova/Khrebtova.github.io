@@ -11,7 +11,7 @@ const Nav = () => {
       <a href="#home" className={ isActive === '#home' ? "active" : ""} onClick={()=>setIsActive('#home')}><RiHomeHeartLine /></a>
       <a href="#about" className={ isActive === '#about' ? "active" : ""} onClick={()=>setIsActive('#about')}><RiUserLine /></a>
       <a href="#experience" className={ isActive === '#experience' ? "active" : ""} onClick={()=>setIsActive('#experience')}><RiBook3Line /></a>
-      <a href="#services" className={ isActive === '#services' ? "active" : ""} onClick={()=>setIsActive('#services')}><RiServiceLine /></a>
+      <a href="#portfolio" className={ isActive === '#services' ? "active" : ""} onClick={()=>setIsActive('#portfolio')}><RiServiceLine /></a>
       <a href="#contact" className={ isActive === '#contact' ? "active" : ""} onClick={()=>setIsActive('#contact')}><RiMessage2Line /></a>
     </nav>
   )
