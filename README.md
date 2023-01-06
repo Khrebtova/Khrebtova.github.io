@@ -3,15 +3,15 @@
 https://khrebtova.github.io/
 
 
-First attemt to build my portfolio after graduation flatiron school program. 
+First attempt to build my portfolio after graduation flatiron school program. 
 
 Used: 
-- React.js to buld site functuanality
+- React.js to build site functionality
 - CSS to style components
 
 # Getting Started 
 
-fork and clone to your local enviroment
+fork and clone to your local environment
 cd to the project directory and run 
 `npm install`
 
