@@ -1,5 +1,7 @@
 # Personal Portfolio Website
-kseniiamcfadden.com
+
+https://khrebtova.github.io/
+
 
 First attemt to build my portfolio after graduation flatiron school program. 
 
