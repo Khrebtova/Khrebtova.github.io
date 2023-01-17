@@ -6,8 +6,17 @@ import IMG3 from "../../assets/project_3.png";
 import IMG4 from "../../assets/project_4.jpg";
 import IMG5 from "../../assets/project_5.jpg";
 import IMG6 from "../../assets/project_6.png";
+import IMG7 from "../../assets/project_CSS.png";
+
 const Portfolio = () => {
   const projects = [
+    {
+      id: 7,
+      image_url: IMG7,
+      title: "CSS Challenge",
+      github_url: "https://github.com/Khrebtova/css-portfolio",
+      live_demo: "https://css-portfolio-khrebtova.netlify.app/",
+    },
     {
       id: 6,
       image_url: IMG6,
