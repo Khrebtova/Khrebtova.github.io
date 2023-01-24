@@ -6,7 +6,7 @@ import IMG3 from "../../assets/project_3.png";
 import IMG4 from "../../assets/project_4.jpg";
 import IMG5 from "../../assets/project_5.jpg";
 import IMG6 from "../../assets/project_6.png";
-import IMG7 from "../../assets/project_CSS.png";
+import IMG7 from "../../assets/project-CSS.png";
 
 const Portfolio = () => {
   const projects = [
@@ -22,7 +22,7 @@ const Portfolio = () => {
       image_url: IMG6,
       title: "Let's Shop",
       github_url: "https://github.com/Khrebtova/Clothing-Shop",
-      live_demo: "",
+      live_demo: "https://clothing-shop-khrebtova.netlify.app/",
     },
     {
       id: 1,
